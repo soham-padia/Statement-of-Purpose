@@ -23,7 +23,7 @@ This repository provides a customizable LaTeX template for creating your Stateme
 
 1. **Customize Your Details:**  
    Open `main.tex` and update the variables:
-
+```
 latex
    \studentName{FirstName LastName}
    \program{MS in Program}
@@ -31,7 +31,7 @@ latex
    \email{email@example.com}
    \statement{Statement of Purpose}
    \term{Fall 3335}
-   
+   ```
 
 2. **Edit Content:**  
    Modify `base.tex` to adjust the personal statement content as needed.
