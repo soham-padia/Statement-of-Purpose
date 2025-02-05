@@ -23,10 +23,39 @@ This repository provides a customizable LaTeX template for creating your Stateme
 
 1. **Customize Your Details:**  
    Open `main.tex` and update the variables:
-   ```latex
+
+latex
    \studentName{FirstName LastName}
    \program{MS in Program}
    \university{Great University}
    \email{email@example.com}
    \statement{Statement of Purpose}
    \term{Fall 3335}
+   
+
+2. **Edit Content:**  
+   Modify `base.tex` to adjust the personal statement content as needed.
+
+3. **Compile the Document:**  
+   Compile `main.tex` using your preferred LaTeX editor or an online platform like Overleaf (e.g., run `pdflatex main.tex`) to generate your final PDF.
+
+## Example Output
+
+The template produces a document with:
+- A title that shows your statement title, program, university, and email.
+- A header on every page displaying your name and university.
+- A footer that prints your name and term.
+
+### PDF Preview
+
+Below are previews of the generated Statement of Purpose:
+
+#### Page 1
+![Statement of Purpose Page 1](Statement_of_Purpose-1.jpg)
+
+#### Page 2
+![Statement of Purpose Page 2](Statement_of_Purpose-2.jpg)
+
+## License
+
+Feel free to use and modify this template for your own applications. 
