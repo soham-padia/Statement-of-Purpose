@@ -23,8 +23,7 @@ This repository provides a customizable LaTeX template for creating your Stateme
 
 1. **Customize Your Details:**  
    Open `main.tex` and update the variables:
-```
-latex
+```latex
    \studentName{FirstName LastName}
    \program{MS in Program}
    \university{Great University}
